@@ -20,7 +20,6 @@ class Solution {
                 count++;
             }else{
                 end = Math.max(intervals[i][1], end);
-                start = Math.min(intervals[i][0],start);
             }
         }
         solution[count][0] = start;
